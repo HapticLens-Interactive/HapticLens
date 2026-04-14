@@ -42,7 +42,24 @@ uv run src/create-dataset-batch.py \
   --extraction-percentages 1.0 0.5 0.25 0.1
 ```
 
-## ACM Reference
+## Citation (BibTeX)
 ```
-Kevin John and Hasti Seifi. 2026. HapticLens: Interactive Vibrotactile Haptic Generation from Spatially Localized Video Motion. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26), April 13–17, 2026, Barcelona, Spain. ACM, New York, NY, USA, 21 pages. https://doi.org/10.1145/3772318.3790269
+@inproceedings{10.1145/3772318.3790269,
+author = {John, Kevin and Seifi, Hasti},
+title = {HapticLens: Interactive Vibrotactile Haptic Generation from Spatially Localized Video Motion},
+year = {2026},
+isbn = {9798400722783},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3772318.3790269},
+doi = {10.1145/3772318.3790269},
+abstract = {Unlike visual and auditory media, physical sensations are difficult to create and capture, limiting the availability of diverse haptic content. Converting common media formats like video into haptics offers a promising solution, but existing video-to-haptics methods depend on specific characteristics, such as camera motion or predefined actions, and rely on spatial haptic hardware (e.g., motion chair, haptic vest). We introduce HapticLens, an interactive method for creating haptics from video, supported by an open-source GUI and two vision algorithms. Our method works with arbitrary video content, detects subtle motion, and requires only a single vibrotactile actuator. We evaluate HapticLens through technical experiments and a study with 22 participants. Results demonstrate it supports interactive vibration design with high designer satisfaction for its usability and haptic signals’ overall quality and relevance. This work broadens the accessibility of video-driven haptics, offering a practical method to create and experience tactile content.},
+booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+articleno = {744},
+numpages = {21},
+keywords = {Haptic Design, Vibrotactile Feedback, Video-to-Haptics, Computer Vision},
+location = {
+},
+series = {CHI '26}
+}
 ```
