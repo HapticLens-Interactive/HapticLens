@@ -1,5 +1,10 @@
 # HapticLens
 
+[![Paper](https://img.shields.io/badge/Paper-ACM%20DL-blue)](https://dl.acm.org/doi/10.1145/3772318.3790269)
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3772318.3790269-green)](https://doi.org/10.1145/3772318.3790269)
+[![Supplementary](https://img.shields.io/badge/Supplementary-Materials-purple)](https://dl.acm.org/doi/10.1145/3772318.3790269#supplementary-materials)
+[![Video Figure](https://img.shields.io/badge/Video-Figure-red)](https://dl.acm.org/doi/10.1145/3772318.3790269#supplementary-materials)
+
 *Interactive Vibrotactile Haptic Generation from Spatially Localized Video Motion*
 
 ![HapticLens overview](hapticlens-overview.png)
@@ -32,7 +37,7 @@ Interactive GUI:
 uv run src/gui.py /path/to/video.mp4 1
 ```
 
-There is also a primitive batch processing script, that uses fixed extraction regions:
+There is also a basic batch processing script, that uses fixed extraction regions:
 
 ```bash
 uv run src/create-dataset-batch.py \
